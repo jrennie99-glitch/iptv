@@ -1,6 +1,7 @@
 {
   "name": "iptv",
   "scripts": {
+    "tv": "node app/server.mjs",
     "act:check": "gh act pull_request -W .github/workflows/check.yml",
     "act:format": "gh act workflow_dispatch -W .github/workflows/format.yml",
     "act:update": "gh act workflow_dispatch -W .github/workflows/update.yml",
